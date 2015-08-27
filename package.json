@@ -1,0 +1,35 @@
+{
+  "name": "coolvideoplayer",
+  "version": "1.0.0",
+  "description": "a nwjs wrapped video player app, just for fun!",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasxjy/coolvideoplayer.git"
+  },
+  "keywords": [
+    "nw",
+    "angular",
+    "video",
+    "player"
+  ],
+  "window": {
+    "resizable": false,
+    "width": 760,
+    "height": 670
+  },
+  "author": "nicholasxjy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholasxjy/coolvideoplayer/issues"
+  },
+  "homepage": "https://github.com/nicholasxjy/coolvideoplayer#readme",
+  "dependencies": {
+    "avoscloud-sdk": "^0.6.0",
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.1"
+  }
+}

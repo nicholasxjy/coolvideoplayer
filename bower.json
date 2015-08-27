@@ -1,0 +1,19 @@
+{
+  "name": "coolvideoplayer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nicholasxjy/coolvideoplayer",
+  "authors": [
+    "nicholasxjy <yitaqi2011@gmail.com>"
+  ],
+  "description": "nw angular video player",
+  "keywords": [
+    "nw",
+    "angular"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-ui-router": "ui-router#~0.2.15",
+    "bootstrap": "~3.3.5"
+  }
+}
