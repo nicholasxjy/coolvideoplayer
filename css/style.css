@@ -86,7 +86,7 @@ body {
   left: 50%;
   margin-left: -35px;
   margin-top: -35px;
-  background-image: url("/media/big-play.svg");
+  background-image: url("../media/big-play.svg");
   z-index: 1000;
   display: none;
 }
@@ -104,27 +104,27 @@ body {
 .zd-video-play {
   width: 11px;
   height: 14px;
-  background-image: url("./media/play.svg");
+  background-image: url("../media/play.svg");
 }
 .zd-video-pause {
   width: 12px;
   height: 14px;
-  background-image: url("./media/pause.svg");
+  background-image: url("../media/pause.svg");
 }
 .zd-video-fullscreen {
   width: 14px;
   height: 14px;
-  background-image: url("./media/fullscreen.svg");
+  background-image: url("../media/fullscreen.svg");
 }
 .zd-video-unfullscreen {
   width: 14px;
   height: 14px;
-  background-image: url("./media/unfullscreen.svg");
+  background-image: url("../media/unfullscreen.svg");
 }
 .zd-video-mute {
   width: 12px;
   height: 14px;
-  background-image: url("./media/volume.svg");
+  background-image: url("../media/volume.svg");
 }
 .zd-controls-body {
   padding: 15px 20px;
