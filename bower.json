@@ -5,15 +5,16 @@
   "authors": [
     "nicholasxjy <yitaqi2011@gmail.com>"
   ],
-  "description": "nw angular video player",
-  "keywords": [
-    "nw",
-    "angular"
-  ],
   "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "angular": "~1.4.4",
-    "angular-ui-router": "ui-router#~0.2.15",
-    "bootstrap": "~3.3.5"
+    "jquery": "~2.1.4"
   }
 }
