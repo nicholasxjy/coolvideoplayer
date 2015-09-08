@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Cool Video Player</title>
+  <meta name="description" content="也许是最有态度的视频播放器">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div class="main">
+    <div class="container">
+      <div class="zd-video-container zd-video-ispause" id="myvideo">
+      </div>
+    </div>
+  </div>
+  <script src="./lib/jquery/dist/jquery.min.js"></script>
+  <script src="./js/zd-video.js"></script>
+  <script>
+    var video = new ZdVideo({
+      container: 'myvideo',
+      source: 'http://7mj4co.com1.z0.glb.clouddn.com/zuo-intro.mp4',
+      poster: './media/head.png'
+    });
+  </script>
+</body>
+</html>
